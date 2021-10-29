@@ -11,3 +11,7 @@ my $oper = $form->param('operador');
 my $var2 = $form->param('variable2');
 
 print $form->header('text/html');
+
+if($oper eq "+"){
+
+}
