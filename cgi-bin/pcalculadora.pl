@@ -13,5 +13,6 @@ my $var2 = $form->param('variable2');
 print $form->header('text/html');
 my $resultado;
 if($oper eq "+"){
-
+  $resultado = $var1 + $var2;
 }
+
