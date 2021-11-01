@@ -16,15 +16,12 @@ print "El resultado es: ";
 if($oper eq "suma"){
   $resultado = $var1 + $var2;
 }
-print $resultado;
 if($oper eq "multiplicacion"){
   $resultado = $var1 * $var2;
 }
-print $resultado;
 if($oper eq "division"){
   $resultado = $var1 / $var2;
 }
-print $resultado;
 if($oper eq "resta"){
   $resultado = $var1 - $var2;
 }
