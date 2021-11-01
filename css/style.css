@@ -1,1 +1,14 @@
-/** Archivo css */
+/* Archivo css */
+h4 {
+  color:orange;
+}
+#casillas{
+  border-radius:20px;
+  padding:1px;
+  margin-right:20px;
+}
+#botoncal{
+  background-color:brown;
+  color:orange;
+
+}
