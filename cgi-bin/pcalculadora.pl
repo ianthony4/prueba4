@@ -12,6 +12,7 @@ my $var2 = $form->param('variable2');
 
 print $form->header('text/html');
 my $resultado;
+print "El resultado es: ";
 if($oper eq "suma"){
   $resultado = $var1 + $var2;
 }
@@ -24,4 +25,7 @@ if($oper eq "division"){
   $resultado = $var1 / $var2;
 }
 print $resultado;
-if
+if($oper eq "resta"){
+  $resultado = $var1 - $var2;
+}
+print $resultado;
