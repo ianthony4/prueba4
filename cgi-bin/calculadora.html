@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <link rel="stylesheet" href="/~alumno/cgi-perl/css/style.css"> 
     <title>Calculadora online</title>
     <meta charset="UTF-8">
   </head>
@@ -11,12 +12,12 @@
     <br>
     <form action='/~alumno/cgi-perl/cgi-bin/pcalculadora.pl' method="GET">
       <label for='variable1'>Variable 1 :</label>
-      <input type='text' name='variable1'>
+      <input id='casillas' type='text' name='variable1'>
       <label for='operador'>Operador :</label>
-      <input type='text' name='operador'>
+      <input id='casillas' type='text' name='operador'>
       <label for='variable2'>Variable 2:</label>
-      <input type='text' name='variable2'>
-      <input type='submit' value='Calcular'>
+      <input id='casillas' type='text' name='variable2'>
+      <input id='botoncal' type='submit' value='Calcular'>
     </form>
   </body>
 </html>
