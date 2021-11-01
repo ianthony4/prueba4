@@ -20,4 +20,8 @@ if($oper eq "multiplicacion"){
   $resultado = $var1 * $var2;
 }
 print $resultado;
+if($oper eq "division"){
+  $resultado = $var1 / $var2;
+}
+print $resultado;
 if
