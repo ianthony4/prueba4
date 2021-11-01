@@ -12,7 +12,12 @@ my $var2 = $form->param('variable2');
 
 print $form->header('text/html');
 my $resultado;
-if($oper eq "+"){
+if($oper eq "suma"){
   $resultado = $var1 + $var2;
 }
-
+print $resultado;
+if($oper eq "multiplicacion"){
+  $resultado = $var1 * $var2;
+}
+print $resultado;
+if
